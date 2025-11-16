@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor_principal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDDAD0;
+}
+
+.contenedor_conversor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_interno {
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1C352D;
+    color: white;
+}
+
+.pesos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.moneda_convertir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grafico_historial {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
